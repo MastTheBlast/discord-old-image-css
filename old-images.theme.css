@@ -1,0 +1,39 @@
+/**
+ * @name Old Embed + Old Favorite
+ * @author RezzScape
+ * @description Old Image/Video Embed, and puts the favorite button back to its og place.
+ * @version 1
+/
+
+[class="ByOneGrid-"]:not([class="OneGridSingle-"]),
+[class="ByTwoGrid-"],
+[class="ByThreeGrid-"] {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+}
+
+[class="ByOneGrid-"]:not([class="OneGridSingle-"]) [class="lazyImg"],
+[class="ByTwoGrid-"] [class="lazyImg"],
+[class="ByThreeGrid-"] [class="lazyImg"] {
+  aspect-ratio: unset;
+  height: auto !important;
+  width: auto !important;
+  margin-left: 0px !important;
+}
+
+[class^="mediaAttachmentsContainer-"] [class="messageAttachmentMediaMosaic-"] {
+  max-width: fit-content;
+}
+
+[class="mediaAttachmentsContainer-"] {
+  border-radius: 0px;
+}
+
+[class*="OneGridSingle-"] {
+  border-radius: 3px;
+}
+ .imageAccessory-2yA7Kb {
+    left: unset;
+    right: 6px;
+} 
